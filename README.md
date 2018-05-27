@@ -7,7 +7,10 @@ cd "C:\Program Files\MongoDB\bin\mongod"
 //Execute mongo shell client. 
 cd "C:\Program Files\MongoDB\bin\mongod"
 .\mongo.exe
+npm run build
+npm run build:prod //aot compilation
 
 npm install
 npm start
+
 
